@@ -22,7 +22,7 @@ namespace SOFTEST_INTRO_Calculator.UnitTests
             double result = _calculator.Add(10, 20);
 
             // Assert
-            Assert.That(result, Is.EqualTo(30));
+            Assert.That(result, Is.EqualTo(999));
         }
 
         [TestCase(10, 3, 7)]   // normal positive values
