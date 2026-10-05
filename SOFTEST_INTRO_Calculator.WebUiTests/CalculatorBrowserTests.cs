@@ -51,7 +51,7 @@ public sealed class CalculatorBrowserTests
 
         Assert.That(
             result,
-            Is.EqualTo("5"));
+            Is.EqualTo("6"));
     }
 
     [Test]
